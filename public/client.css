@@ -1,0 +1,49 @@
+body, input, textarea {
+	font-family: 'Source Code Pro', monospace;
+	font-size:16px;
+}
+input, textarea {
+	width:100%;
+	/*border:1px solid red;*/
+	border:none;
+	padding:10px 20px;
+	background:rgba(0,0,0,0);
+	color:white;
+}
+body {
+	background:rgba(0,0,0,0.6);
+	margin:0;
+	padding:0;
+	color:white;
+	-webkit-app-region: drag;
+}
+h1 {
+	margin:0;
+}
+input {
+	margin:0;
+}
+input:focus, textarea:focus {
+	outline:none;
+}
+input::selection {
+	background:white;
+	color:black;
+}
+
+input::placeholder {
+	color:white;
+}
+.header {
+	text-align:center;
+	margin:0;
+	padding:10px;
+	font-size:16px;
+}
+#list {
+	height:140px; /* 126 for just 3 elements */
+	overflow:scroll;
+}
+textarea {
+	margin:10px 0;
+}

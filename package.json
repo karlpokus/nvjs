@@ -1,0 +1,27 @@
+{
+  "name": "nvjs",
+  "version": "0.1.0",
+  "description": "nv in js",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlpokus/nvjs.git"
+  },
+  "keywords": [
+    "nv"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlpokus/nvjs/issues"
+  },
+  "homepage": "https://github.com/karlpokus/nvjs#readme",
+  "dependencies": {
+    "electron": "^1.7.10",
+    "electron-is-dev": "^0.3.0",
+    "electron-reload": "^1.2.2"
+  }
+}
